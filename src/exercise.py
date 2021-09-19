@@ -13,7 +13,7 @@ def main():
             count += 1
             sum += num
         
-    if count == 0:
+    if sum == 0:
         print('Cannot calculate the average')
     else:
         print(sum/count)
