@@ -1,23 +1,22 @@
 def main():
     #write your code below this line
     sum = 0
-    positive = 0
+    count = 0
     
     while True:
         num = int(input(''))
         
         if num == 0:
             break
-        if num > 0:
-            positive += 1
             
+        if num > 0:
+            count += 1
+            sum += num
         
-        sum += num
-        
-    if sum == 0:
+    if count == 0:
         print('Cannot calculate the average')
-    elif sum != 0 and positive != 0:
-        print(sum/positive)
+    else:
+        print(sum/count)
         
 
 
