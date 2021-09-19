@@ -16,7 +16,7 @@ def main():
         
     if sum == 0:
         print('Cannot calculate the average')
-    else:
+    elif sum != 0 and positive != 0:
         print(sum/positive)
         
 
