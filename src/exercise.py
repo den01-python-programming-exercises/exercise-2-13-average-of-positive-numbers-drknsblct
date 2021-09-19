@@ -4,7 +4,7 @@ def main():
     positive = 0
     
     while True:
-        num = int(input('Give a number:'))
+        num = int(input(''))
         
         if num == 0:
             break
