@@ -19,9 +19,7 @@ def main():
     else:
         print(positive/sum)
         
-    print('Number of numbers: ' + str(count))
-    print('Sum of numbers: ' + str(sum))
-    
+
 
 if __name__ == '__main__':
     main()
